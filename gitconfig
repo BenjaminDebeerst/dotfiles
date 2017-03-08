@@ -1,0 +1,12 @@
+[user]
+	name = Benjamin Debeerst
+	email = benjamin.debeerst@posteo.de
+[alias]
+	st = status -s
+	co = checkout
+        wdiff = diff --color-words
+        lg = log --pretty=format:'%C(yellow)%h %Cred%ad %Cgreen%d %Creset%s' --date=short
+	ll = log --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an %Cgreen%d %Creset%s' --date=format:'%Y-%m-%d %H:%M'
+	append = commit --amend --reuse-message HEAD
+[push]
+	default = simple
