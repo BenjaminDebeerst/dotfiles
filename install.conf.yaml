@@ -1,0 +1,13 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.vimrc: vimrc
+    ~/.gitconfig: gitconfig
+    ~/.bashrc: bashrc
+    ~/.bash_git_setup: bash_git_setup
+    ~/.bash_logout: bash_logout
+
