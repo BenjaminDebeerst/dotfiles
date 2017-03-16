@@ -10,4 +10,5 @@
     ~/.bashrc: bashrc
     ~/.bash_git_setup: bash_git_setup
     ~/.bash_logout: bash_logout
+    ~/.config/terminator/config: terminator/config
 
